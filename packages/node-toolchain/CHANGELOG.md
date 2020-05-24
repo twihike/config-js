@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.1.3](https://github.com/twihike/config-js/compare/v0.1.2...v0.1.3) (2020-05-24)
 
-**Note:** Version bump only for package @twihike/config-js
-
-
-
-
-
-## 0.1.2 (2020-05-24)
-
-**Note:** Version bump only for package @twihike/config-js
+**Note:** Version bump only for package @twihike/node-toolchain
