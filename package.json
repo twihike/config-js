@@ -23,7 +23,7 @@
     "format:js": "eslint --fix .",
     "format:css": "stylelint --allow-empty-input --fix \"./**/*.css\"",
     "release:version": "lerna version --conventional-commits --no-push",
-    "release:publish": "lerna publish from-git"
+    "release:publish": "lerna publish from-package"
   },
   "husky": {
     "hooks": {
