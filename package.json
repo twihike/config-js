@@ -1,0 +1,53 @@
+{
+  "name": "@twihike/config-js",
+  "version": "0.0.0",
+  "description": "My JavaScript config.",
+  "license": "MIT",
+  "author": "twihike",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twihike/config-js.git"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "check": "run-s check:*",
+    "check:eslint": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "check:stylelint": "stylelint-config-prettier-check",
+    "lint": "run-s lint:*",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint --allow-empty-input \"./**/*.css\"",
+    "format": "run-s format:*",
+    "format:js": "eslint --fix .",
+    "format:css": "stylelint --allow-empty-input --fix \"./**/*.css\"",
+    "release:version": "lerna version --conventional-commits --no-push",
+    "release:publish": "lerna publish from-git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{js,mjs,jsx,ts,tsx}": "eslint",
+    "*.{css}": "stylelint"
+  },
+  "commitlint": {
+    "extends": [
+      "@twihike"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "@twihike"
+  },
+  "prettier": "@twihike/prettier-config",
+  "stylelint": {
+    "extends": "@twihike/stylelint-config"
+  },
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  }
+}

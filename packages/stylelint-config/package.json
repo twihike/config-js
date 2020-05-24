@@ -1,0 +1,29 @@
+{
+  "name": "@twihike/stylelint-config",
+  "version": "0.1.0",
+  "description": "My stylelint config.",
+  "license": "MIT",
+  "author": "twihike",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twihike/config-js.git",
+    "directory": "packages/stylelint-config"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.17.2"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.5",
+    "stylelint": "^13.5.0"
+  }
+}

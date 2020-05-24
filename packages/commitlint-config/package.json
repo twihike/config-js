@@ -1,0 +1,29 @@
+{
+  "name": "@twihike/commitlint-config",
+  "version": "0.1.0",
+  "description": "My commitlint config.",
+  "license": "MIT",
+  "author": "twihike",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twihike/config-js.git",
+    "directory": "packages/commitlint-config"
+  },
+  "scripts": {
+    "lint": "commitlint .",
+    "format": "commitlint --write ."
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^8.3.4"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^8.3.5"
+  }
+}
