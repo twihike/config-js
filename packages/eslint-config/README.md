@@ -7,7 +7,18 @@
 With npm:
 
 ```shell
-npm install --save-dev eslint @tkhiking/eslint-config
+npm install --save-dev eslint @tkhiking/eslint-config \
+  @typescript-eslint/eslint-plugin \
+  eslint-plugin-eslint-comments \
+  eslint-plugin-import \
+  eslint-plugin-jest \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-node \
+  eslint-plugin-prettier \
+  eslint-plugin-promise \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks \
+  eslint-plugin-unicorn
 npm install --save-dev prettier @tkhiking/prettier-config
 npm install --save-dev typescript
 ```
@@ -15,7 +26,18 @@ npm install --save-dev typescript
 With yarn:
 
 ```shell
-yarn add --dev eslint @tkhiking/eslint-config
+yarn add --dev eslint @tkhiking/eslint-config \
+  @typescript-eslint/eslint-plugin \
+  eslint-plugin-eslint-comments \
+  eslint-plugin-import \
+  eslint-plugin-jest \
+  eslint-plugin-jsx-a11y \
+  eslint-plugin-node \
+  eslint-plugin-prettier \
+  eslint-plugin-promise \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks \
+  eslint-plugin-unicorn
 yarn add --dev prettier @tkhiking/prettier-config
 yarn add --dev typescript
 ```
