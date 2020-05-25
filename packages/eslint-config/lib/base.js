@@ -10,6 +10,7 @@ module.exports = {
     'airbnb-base',
   ],
   rules: {
+    'no-use-before-define': ['error', 'nofunc'],
     'unicorn/prevent-abbreviations': 'off',
   },
   overrides: [
