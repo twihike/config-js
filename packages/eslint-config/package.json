@@ -1,6 +1,6 @@
 {
   "name": "@tkhiking/eslint-config",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "My ESLint config.",
   "license": "MIT",
   "author": "tkhiking",
