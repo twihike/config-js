@@ -10,6 +10,29 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
   ],
   rules: {
+    'class-methods-use-this': [
+      'error',
+      {
+        exceptMethods: [
+          'render',
+          'getInitialState',
+          'getDefaultProps',
+          'getChildContext',
+          'componentWillMount',
+          'UNSAFE_componentWillMount',
+          'componentDidMount',
+          'componentWillReceiveProps',
+          'UNSAFE_componentWillReceiveProps',
+          'shouldComponentUpdate',
+          'componentWillUpdate',
+          'UNSAFE_componentWillUpdate',
+          'componentDidUpdate',
+          'componentWillUnmount',
+          'componentDidCatch',
+          'getSnapshotBeforeUpdate',
+        ],
+      },
+    ],
     'jsx-quotes': ['error', 'prefer-double'],
     'react/boolean-prop-naming': 'off',
     'react/forbid-component-props': 'off',
@@ -18,7 +41,7 @@ module.exports = {
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.tsx'] }],
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
-    'react/jsx-max-depth': ['warn', { max: 5 }],
+    'react/jsx-max-depth': ['warn', { max: 8 }],
     'react/jsx-max-props-per-line': [
       'error',
       { maximum: 1, when: 'multiline' },
@@ -62,6 +85,7 @@ module.exports = {
         prop: 'parens-new-line',
       },
     ],
+    'react/no-multi-comp': 'off',
     'react/no-set-state': 'off',
     'react/prefer-read-only-props': 'off',
     'react/sort-comp': 'off',
@@ -83,6 +107,7 @@ module.exports = {
           'error',
           {
             cases: {
+              kebabCase: true,
               pascalCase: true,
             },
           },

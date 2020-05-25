@@ -38,5 +38,6 @@ module.exports = {
       },
     ],
     'import/no-unresolved': 'warn',
+    'import/prefer-default-export': 'off',
   },
 };

@@ -14,13 +14,16 @@ module.exports = {
         'spaced-comment': ['error', 'always', { markers: ['/'] }],
 
         '@typescript-eslint/array-type': 'error',
+        '@typescript-eslint/consistent-type-assertions': 'error',
+        '@typescript-eslint/member-delimiter-style': 'error',
         '@typescript-eslint/method-signature-style': 'error',
         '@typescript-eslint/no-dynamic-delete': 'warn',
-        '@typescript-eslint/no-extra-non-null-assertion': 'warn',
+        '@typescript-eslint/no-extra-non-null-assertion': 'error', // recommend since v3
         '@typescript-eslint/no-extraneous-class': 'warn',
         '@typescript-eslint/no-invalid-void-type': 'warn',
-        '@typescript-eslint/no-non-null-asserted-optional-chain': 'warn',
+        '@typescript-eslint/no-non-null-asserted-optional-chain': 'error', // recommend since v3
         '@typescript-eslint/prefer-optional-chain': 'warn',
+        '@typescript-eslint/type-annotation-spacing': 'error',
         '@typescript-eslint/unified-signatures': 'warn',
 
         // Extension rules
@@ -44,7 +47,7 @@ module.exports = {
         ],
 
         'init-declarations': 'off',
-        '@typescript-eslint/init-declarations': 'warn',
+        '@typescript-eslint/init-declarations': 'off',
 
         'keyword-spacing': 'off',
         '@typescript-eslint/keyword-spacing': 'error',
@@ -66,10 +69,7 @@ module.exports = {
         '@typescript-eslint/no-invalid-this': 'error',
 
         'no-magic-numbers': 'off',
-        '@typescript-eslint/no-magic-numbers': [
-          'error',
-          { ignore: [-1, 0, 1] },
-        ],
+        '@typescript-eslint/no-magic-numbers': ['off', { ignore: [-1, 0, 1] }],
 
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-unused-expressions': 'error',
