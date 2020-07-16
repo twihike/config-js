@@ -1,6 +1,6 @@
 # config-js
 
-![release status](https://github.com/tkhiking/config-js/workflows/release/badge.svg) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) [![license](https://img.shields.io/github/license/tkhiking/chat-ui-react)](LICENSE)
+![release status](https://github.com/tkhiking/config-js/workflows/release/badge.svg) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) [![license](https://img.shields.io/github/license/tkhiking/config-js)](LICENSE)
 
 My JavaScript config.
 
