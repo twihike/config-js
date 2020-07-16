@@ -1,6 +1,6 @@
 {
   "name": "@tkhiking/node-toolchain",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "My node toolchain.",
   "license": "MIT",
   "author": "tkhiking",
@@ -15,7 +15,7 @@
   "dependencies": {
     "@commitlint/cli": "^9.1.1",
     "@tkhiking/commitlint-config": "^0.1.6",
-    "@tkhiking/eslint-config": "^0.1.7",
+    "@tkhiking/eslint-config": "^0.1.8",
     "@tkhiking/prettier-config": "^0.1.2",
     "@tkhiking/stylelint-config": "^0.1.6",
     "@typescript-eslint/eslint-plugin": "^3.6.1",
