@@ -1,6 +1,6 @@
 # config-js
 
-[![release status](https://github.com/tkhiking/config-js/workflows/release/badge.svg)](https://github.com/tkhiking/config-js/actions) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) [![license](https://img.shields.io/github/license/tkhiking/config-js)](LICENSE)
+[![ci status](https://github.com/tkhiking/config-js/workflows/ci/badge.svg)](https://github.com/tkhiking/config-js/actions) [![release status](https://github.com/tkhiking/config-js/workflows/release/badge.svg)](https://github.com/tkhiking/config-js/actions) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) [![license](https://img.shields.io/github/license/tkhiking/config-js)](LICENSE)
 
 My JavaScript config.
 
@@ -14,6 +14,6 @@ My JavaScript config.
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+Copyright (c) 2020 tkhiking. All rights reserved.
 
-Copyright (c) 2020 tkhiking.
+This project is licensed under the terms of the MIT license.

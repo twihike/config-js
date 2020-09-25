@@ -36,6 +36,6 @@ module.exports = '@tkhiking/prettier-config';
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+Copyright (c) 2020 tkhiking. All rights reserved.
 
-Copyright (c) 2020 tkhiking.
+This project is licensed under the terms of the MIT license.
