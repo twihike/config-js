@@ -1,6 +1,6 @@
 {
   "name": "@twihike/node-toolchain",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "My node toolchain.",
   "license": "MIT",
   "author": "twihike",
@@ -15,7 +15,7 @@
   "dependencies": {
     "@commitlint/cli": "^11.0.0",
     "@twihike/commitlint-config": "^0.1.10",
-    "@twihike/eslint-config": "^0.1.10",
+    "@twihike/eslint-config": "^0.1.11",
     "@twihike/prettier-config": "^0.1.10",
     "@twihike/stylelint-config": "^0.1.10",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
