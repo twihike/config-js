@@ -1,12 +1,15 @@
-name: release
+name: ci
 
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
-  release:
+  check:
     strategy:
       matrix:
         os:
@@ -19,8 +22,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
       - run: yarn install --frozen-lockfile
-      - run: yarn run lerna publish from-package --yes
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: yarn run check
+      - run: yarn run lint
