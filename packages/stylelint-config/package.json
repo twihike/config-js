@@ -1,6 +1,6 @@
 {
   "name": "@twihike/stylelint-config",
-  "version": "0.1.6",
+  "version": "0.1.10",
   "description": "My stylelint config.",
   "license": "MIT",
   "author": "twihike",
