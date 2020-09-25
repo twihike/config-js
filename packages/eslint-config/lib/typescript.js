@@ -71,6 +71,9 @@ module.exports = {
         'no-magic-numbers': 'off',
         '@typescript-eslint/no-magic-numbers': ['off', { ignore: [-1, 0, 1] }],
 
+        'no-redeclare': 'off',
+        '@typescript-eslint/no-redeclare': 'error',
+
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-unused-expressions': 'error',
 
