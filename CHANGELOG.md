@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.12](https://github.com/twihike/config-js/compare/v0.1.11...v0.1.12) (2020-12-19)
+
+**Note:** Version bump only for package @twihike/config-js
+
+
+
+
+
 ## [0.1.11](https://github.com/twihike/config-js/compare/v0.1.10...v0.1.11) (2020-09-25)
 
 **Note:** Version bump only for package @twihike/config-js
