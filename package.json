@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "check": "run-s check:*",
-    "check:eslint": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
+    "check:eslint": "eslint-config-prettier .eslintrc.js",
     "check:stylelint": "stylelint-config-prettier-check",
     "lint": "run-s lint:*",
     "lint:js": "eslint .",
