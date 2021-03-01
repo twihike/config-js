@@ -46,7 +46,7 @@ module.exports = {
       'error',
       { maximum: 1, when: 'multiline' },
     ],
-    'react/jsx-no-literals': 'off',
+    'react/jsx-newline': 'off',
     'react/jsx-no-bind': [
       'error',
       {
@@ -55,6 +55,7 @@ module.exports = {
         ignoreRefs: true,
       },
     ],
+    'react/jsx-no-literals': 'off',
     'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
     'react/jsx-pascal-case': [
       'error',

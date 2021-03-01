@@ -14,7 +14,6 @@ npm install --save-dev eslint @twihike/eslint-config \
   eslint-plugin-jest \
   eslint-plugin-jsx-a11y \
   eslint-plugin-node \
-  eslint-plugin-prettier \
   eslint-plugin-promise \
   eslint-plugin-react \
   eslint-plugin-react-hooks \
@@ -33,7 +32,6 @@ yarn add --dev eslint @twihike/eslint-config \
   eslint-plugin-jest \
   eslint-plugin-jsx-a11y \
   eslint-plugin-node \
-  eslint-plugin-prettier \
   eslint-plugin-promise \
   eslint-plugin-react \
   eslint-plugin-react-hooks \
