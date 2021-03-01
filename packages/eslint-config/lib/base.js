@@ -11,6 +11,7 @@ module.exports = {
   ],
   rules: {
     'no-use-before-define': ['error', 'nofunc'],
+    'unicorn/no-array-for-each': 'off',
     'unicorn/prevent-abbreviations': 'off',
   },
   overrides: [
